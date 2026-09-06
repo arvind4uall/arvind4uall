@@ -105,37 +105,44 @@ Currently shipping fintech software at **Cognizant Technology Solutions** for a 
   </a>
 </p>
 
-```mermaid
-flowchart TD
-    Client(["🌐 Client Request"]):::client --> FE
+<div align="center">
+<table>
+<tr><td align="center" style="padding:16px">
 
-    FE["🎨 Frontend\nReact.js • JavaScript • HTML5 • CSS3"]:::frontend --> GW
+🌐 **Client Request**
 
-    GW["🚪 API Gateway & Discovery\nSpring Cloud Gateway • Eureka"]:::backend --> Auth
+⬇
 
-    Auth["🔐 Security Layer\nSpring Security • OAuth 2.0 • JWT"]:::backend --> MS
+🎨 **Frontend** — `React` · `JavaScript` · `HTML5` · `CSS3`
 
-    MS["⚙️ Microservices\nSpring Boot • Spring Data JPA • Hibernate"]:::backend --> Patterns
-    MS <--> |"Event Driven"| Kafka["📨 Apache Kafka"]:::kafka
+⬇ REST API
 
-    Patterns["🧩 Architecture Patterns\nCircuit Breaker • Saga • CQRS"]:::patterns --> DB
+🚪 **API Gateway & Discovery** — `Spring Cloud Gateway` · `Eureka`
 
-    DB["🗄️ Data Layer\nMySQL • PostgreSQL • Redis"]:::data
+⬇
 
-    MS --> CICD["🔄 CI/CD Pipeline\nJenkins • Maven • Git"]:::devops
-    CICD --> Cloud["☁️ Cloud Infrastructure\nDocker • Kubernetes • AWS"]:::cloud
-    Cloud --> Obs["📊 Observability\nSplunk • Prometheus • Grafana"]:::observe
+🔐 **Security** — `Spring Security` · `OAuth 2.0` · `JWT`
 
-    classDef client fill:#161b22,stroke:#3FB950,stroke-width:2px,color:#c9d1d9
-    classDef frontend fill:#161b22,stroke:#61DAFB,stroke-width:2px,color:#c9d1d9
-    classDef backend fill:#161b22,stroke:#6DB33F,stroke-width:2px,color:#c9d1d9
-    classDef kafka fill:#161b22,stroke:#FF6F00,stroke-width:2px,color:#c9d1d9
-    classDef patterns fill:#161b22,stroke:#8250DF,stroke-width:2px,color:#c9d1d9
-    classDef data fill:#161b22,stroke:#4479A1,stroke-width:2px,color:#c9d1d9
-    classDef devops fill:#161b22,stroke:#D24939,stroke-width:2px,color:#c9d1d9
-    classDef cloud fill:#161b22,stroke:#2496ED,stroke-width:2px,color:#c9d1d9
-    classDef observe fill:#161b22,stroke:#E6522C,stroke-width:2px,color:#c9d1d9
-```
+⬇
+
+⚙️ **Microservices** — `Spring Boot` · `Spring Data JPA` · `Hibernate` &nbsp;⟷&nbsp; 📨 **Apache Kafka**
+
+⬇
+
+🧩 **Architecture Patterns** — `Circuit Breaker` · `Saga` · `CQRS`
+
+⬇
+
+🗄️ **Data Layer** — `MySQL` · `PostgreSQL` · `Redis`
+
+</td></tr>
+</table>
+
+<br>
+
+🔄 `Jenkins` · `Maven` · `Git` &nbsp;➜&nbsp; ☁️ `Docker` · `K8s` · `AWS` &nbsp;➜&nbsp; 📊 `Splunk` · `Prometheus` · `Grafana`
+
+</div>
 
 ---
 
@@ -147,9 +154,6 @@ flowchart TD
   </a>
   <a href="mailto:arvind.stacks@gmail.com">
     <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
-  </a>
-  <a href="https://github.com/arvind4uall">
-    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
   </a>
 </p>
 
