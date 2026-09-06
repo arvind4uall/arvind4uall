@@ -95,20 +95,6 @@ Currently shipping fintech software at **Cognizant Technology Solutions** for a 
   </a>
 </p>
 
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=arvind4uall&theme=darkhub&no-frame=true&no-bg=true&column=7" width="90%" alt="GitHub Trophies" />
-</p>
-
-<p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=arvind4uall&theme=github_dark" width="90%" alt="Contribution Graph" />
-</p>
-
-<p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=arvind4uall&theme=github_dark" width="32%" alt="Top Languages by Repo" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=arvind4uall&theme=github_dark" width="32%" alt="Top Languages by Commit" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=arvind4uall&theme=github_dark" width="32%" alt="Stats" />
-</p>
-
 ---
 
 ## 🏗️ What I Build
