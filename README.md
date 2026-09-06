@@ -99,22 +99,42 @@ Currently shipping fintech software at **Cognizant Technology Solutions** for a 
 
 ## 🏗️ What I Build
 
-```
-  Frontend          Backend              Data               Cloud & Deploy
- ┌──────────┐    ┌───────────────┐    ┌──────────────┐    ┌──────────────────┐
- │ React.js │───▶│ Spring Boot   │───▶│ MySQL        │    │ Docker → K8s     │
- │ JS/HTML  │    │ Spring Cloud  │    │ PostgreSQL   │    │ Jenkins CI/CD    │
- │ CSS      │    │ Kafka Events  │    │ Redis Cache  │    │ AWS Cloud        │
- └──────────┘    │ Spring Security│    └──────────────┘    │ Prometheus+Grafana│
-                 │ OAuth 2.0/JWT │                        │ Splunk Logging   │
-                 └───────────────┘                        └──────────────────┘
-                          │
-                 ┌────────┴────────┐
-                 │  Architecture   │
-                 │ Circuit Breaker │
-                 │ Saga │ CQRS     │
-                 │ Eureka │ Gateway│
-                 └─────────────────┘
+<p align="center">
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=18&duration=3000&pause=1000&color=3FB950&center=true&vCenter=true&multiline=false&repeat=true&width=700&height=35&lines=React+%E2%86%92+API+Gateway+%E2%86%92+Spring+Boot+%E2%86%92+Kafka+%E2%86%92+PostgreSQL+%E2%86%92+AWS;Circuit+Breaker+%7C+Saga+%7C+CQRS+%7C+Event+Driven+Architecture;OAuth+2.0+%7C+JWT+%7C+Spring+Security+%7C+Zero+Trust+APIs;Docker+%E2%86%92+Kubernetes+%E2%86%92+Jenkins+CI%2FCD+%E2%86%92+Production;Splunk+%7C+Prometheus+%7C+Grafana+%E2%86%92+Full+Observability" alt="Architecture Flow" />
+  </a>
+</p>
+
+```mermaid
+flowchart TD
+    Client(["🌐 Client Request"]):::client --> FE
+
+    FE["🎨 Frontend\nReact.js • JavaScript • HTML5 • CSS3"]:::frontend --> GW
+
+    GW["🚪 API Gateway & Discovery\nSpring Cloud Gateway • Eureka"]:::backend --> Auth
+
+    Auth["🔐 Security Layer\nSpring Security • OAuth 2.0 • JWT"]:::backend --> MS
+
+    MS["⚙️ Microservices\nSpring Boot • Spring Data JPA • Hibernate"]:::backend --> Patterns
+    MS <--> |"Event Driven"| Kafka["📨 Apache Kafka"]:::kafka
+
+    Patterns["🧩 Architecture Patterns\nCircuit Breaker • Saga • CQRS"]:::patterns --> DB
+
+    DB["🗄️ Data Layer\nMySQL • PostgreSQL • Redis"]:::data
+
+    MS --> CICD["🔄 CI/CD Pipeline\nJenkins • Maven • Git"]:::devops
+    CICD --> Cloud["☁️ Cloud Infrastructure\nDocker • Kubernetes • AWS"]:::cloud
+    Cloud --> Obs["📊 Observability\nSplunk • Prometheus • Grafana"]:::observe
+
+    classDef client fill:#161b22,stroke:#3FB950,stroke-width:2px,color:#c9d1d9
+    classDef frontend fill:#161b22,stroke:#61DAFB,stroke-width:2px,color:#c9d1d9
+    classDef backend fill:#161b22,stroke:#6DB33F,stroke-width:2px,color:#c9d1d9
+    classDef kafka fill:#161b22,stroke:#FF6F00,stroke-width:2px,color:#c9d1d9
+    classDef patterns fill:#161b22,stroke:#8250DF,stroke-width:2px,color:#c9d1d9
+    classDef data fill:#161b22,stroke:#4479A1,stroke-width:2px,color:#c9d1d9
+    classDef devops fill:#161b22,stroke:#D24939,stroke-width:2px,color:#c9d1d9
+    classDef cloud fill:#161b22,stroke:#2496ED,stroke-width:2px,color:#c9d1d9
+    classDef observe fill:#161b22,stroke:#E6522C,stroke-width:2px,color:#c9d1d9
 ```
 
 ---
@@ -125,7 +145,7 @@ Currently shipping fintech software at **Cognizant Technology Solutions** for a 
   <a href="https://linkedin.com/in/fsdarvind">
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
-  <a href="mailto:arbindkumar400@gmail.com">
+  <a href="mailto:arvind.stacks@gmail.com">
     <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
   </a>
   <a href="https://github.com/arvind4uall">
