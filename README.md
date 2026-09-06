@@ -2,7 +2,7 @@
 
 <p align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=20&duration=3000&pause=1500&color=1A7F37&center=true&vCenter=true&multiline=false&repeat=true&width=550&height=30&lines=I+build+resilient+systems+from+frontend+to+cloud;Java+%7C+Spring+Boot+%7C+Microservices+%7C+Kafka+%7C+AWS;4%2B+years+shipping+production+fintech+at+scale;Spring+Cloud+%7C+Circuit+Breaker+%7C+Saga+%7C+CQRS" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=20&duration=3000&pause=1500&color=1A7F37&center=true&vCenter=true&multiline=false&repeat=true&width=750&height=40&lines=I+build+resilient+systems+from+frontend+to+cloud+%E2%98%81%EF%B8%8F;Java+%7C+Spring+Boot+%7C+Microservices+%7C+Kafka+%7C+AWS;4%2B+years+shipping+production+fintech+at+scale;Spring+Cloud+%7C+Circuit+Breaker+%7C+Saga+%7C+CQRS" alt="Typing SVG" />
   </a>
 </p>
 
