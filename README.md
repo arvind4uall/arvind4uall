@@ -99,48 +99,92 @@ Currently shipping fintech software at **Cognizant Technology Solutions** for a 
 
 ## 🏗️ What I Build
 
-<p align="center">
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=18&duration=3000&pause=1000&color=3FB950&center=true&vCenter=true&multiline=false&repeat=true&width=700&height=35&lines=React+%E2%86%92+API+Gateway+%E2%86%92+Spring+Boot+%E2%86%92+Kafka+%E2%86%92+PostgreSQL+%E2%86%92+AWS;Circuit+Breaker+%7C+Saga+%7C+CQRS+%7C+Event+Driven+Architecture;OAuth+2.0+%7C+JWT+%7C+Spring+Security+%7C+Zero+Trust+APIs;Docker+%E2%86%92+Kubernetes+%E2%86%92+Jenkins+CI%2FCD+%E2%86%92+Production;Splunk+%7C+Prometheus+%7C+Grafana+%E2%86%92+Full+Observability" alt="Architecture Flow" />
-  </a>
-</p>
-
 <div align="center">
-<table>
-<tr><td align="center" style="padding:16px">
 
-🌐 **Client Request**
-
-⬇
-
-🎨 **Frontend** — `React` · `JavaScript` · `HTML5` · `CSS3`
-
-⬇ REST API
-
-🚪 **API Gateway & Discovery** — `Spring Cloud Gateway` · `Eureka`
-
-⬇
-
-🔐 **Security** — `Spring Security` · `OAuth 2.0` · `JWT`
-
-⬇
-
-⚙️ **Microservices** — `Spring Boot` · `Spring Data JPA` · `Hibernate` &nbsp;⟷&nbsp; 📨 **Apache Kafka**
-
-⬇
-
-🧩 **Architecture Patterns** — `Circuit Breaker` · `Saga` · `CQRS`
-
-⬇
-
-🗄️ **Data Layer** — `MySQL` · `PostgreSQL` · `Redis`
-
-</td></tr>
-</table>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1a2e,50:16213e,100:0f3460&height=120&section=header&text=Request%20Lifecycle&fontSize=28&fontColor=3FB950&animation=twinkling&fontAlignY=45" width="100%" />
 
 <br>
 
-🔄 `Jenkins` · `Maven` · `Git` &nbsp;➜&nbsp; ☁️ `Docker` · `K8s` · `AWS` &nbsp;➜&nbsp; 📊 `Splunk` · `Prometheus` · `Grafana`
+<!-- ═══════════ FRONTEND ═══════════ -->
+<img src="https://img.shields.io/badge/🎨_FRONTEND-61DAFB?style=for-the-badge" />
+<br><br>
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=14&duration=2000&pause=800&color=61DAFB&center=true&vCenter=true&multiline=false&repeat=true&width=450&height=25&lines=React.js+%E2%80%A2+JavaScript+%E2%80%A2+HTML5+%E2%80%A2+CSS3" alt="Frontend Stack" />
+
+<br>
+
+<img src="https://img.shields.io/badge/⬇-0d1117?style=flat-square&labelColor=0d1117" />
+
+<br>
+
+<!-- ═══════════ API GATEWAY ═══════════ -->
+<img src="https://img.shields.io/badge/🚪_API_GATEWAY_%26_DISCOVERY-6DB33F?style=for-the-badge" />
+<br><br>
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=14&duration=2000&pause=800&color=6DB33F&center=true&vCenter=true&multiline=false&repeat=true&width=450&height=25&lines=Spring+Cloud+Gateway+%E2%80%A2+Eureka+Service+Discovery" alt="Gateway Stack" />
+
+<br>
+
+<img src="https://img.shields.io/badge/⬇-0d1117?style=flat-square&labelColor=0d1117" />
+
+<br>
+
+<!-- ═══════════ SECURITY ═══════════ -->
+<img src="https://img.shields.io/badge/🔐_SECURITY_LAYER-FFCA28?style=for-the-badge" />
+<br><br>
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=14&duration=2000&pause=800&color=FFCA28&center=true&vCenter=true&multiline=false&repeat=true&width=450&height=25&lines=Spring+Security+%E2%80%A2+OAuth+2.0+%E2%80%A2+JWT" alt="Security Stack" />
+
+<br>
+
+<img src="https://img.shields.io/badge/⬇-0d1117?style=flat-square&labelColor=0d1117" />
+
+<br>
+
+<!-- ═══════════ MICROSERVICES + KAFKA ═══════════ -->
+<img src="https://img.shields.io/badge/⚙️_MICROSERVICES-6DB33F?style=for-the-badge" />
+&nbsp;&nbsp;⟷&nbsp;&nbsp;
+<img src="https://img.shields.io/badge/📨_KAFKA-FF6F00?style=for-the-badge" />
+<br><br>
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=14&duration=2500&pause=800&color=6DB33F&center=true&vCenter=true&multiline=false&repeat=true&width=550&height=25&lines=Spring+Boot+%E2%80%A2+Spring+Data+JPA+%E2%80%A2+Hibernate;Event+Driven+Architecture+%E2%80%A2+Apache+Kafka" alt="Microservices Stack" />
+
+<br>
+
+<img src="https://img.shields.io/badge/⬇-0d1117?style=flat-square&labelColor=0d1117" />
+
+<br>
+
+<!-- ═══════════ ARCHITECTURE PATTERNS ═══════════ -->
+<img src="https://img.shields.io/badge/🧩_ARCHITECTURE_PATTERNS-8250DF?style=for-the-badge" />
+<br><br>
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=14&duration=2000&pause=800&color=8250DF&center=true&vCenter=true&multiline=false&repeat=true&width=450&height=25&lines=Circuit+Breaker+%E2%80%A2+Saga+%E2%80%A2+CQRS" alt="Architecture Patterns" />
+
+<br>
+
+<img src="https://img.shields.io/badge/⬇-0d1117?style=flat-square&labelColor=0d1117" />
+
+<br>
+
+<!-- ═══════════ DATA LAYER ═══════════ -->
+<img src="https://img.shields.io/badge/🗄️_DATA_LAYER-4479A1?style=for-the-badge" />
+<br><br>
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=14&duration=2000&pause=800&color=4479A1&center=true&vCenter=true&multiline=false&repeat=true&width=450&height=25&lines=MySQL+%E2%80%A2+PostgreSQL+%E2%80%A2+Redis" alt="Data Stack" />
+
+<br><br>
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:161b22,100:0d1117&height=2" width="60%" />
+
+<br>
+
+<!-- ═══════════ DEPLOYMENT PIPELINE ═══════════ -->
+<img src="https://img.shields.io/badge/🔄_CI%2FCD-D24939?style=for-the-badge" />
+&nbsp;➜&nbsp;
+<img src="https://img.shields.io/badge/☁️_CLOUD-2496ED?style=for-the-badge" />
+&nbsp;➜&nbsp;
+<img src="https://img.shields.io/badge/📊_OBSERVABILITY-E6522C?style=for-the-badge" />
+<br><br>
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=14&duration=3000&pause=800&color=D24939&center=true&vCenter=true&multiline=false&repeat=true&width=700&height=25&lines=Jenkins+%E2%80%A2+Maven+%E2%80%A2+Git+%E2%86%92+Docker+%E2%80%A2+Kubernetes+%E2%80%A2+AWS+%E2%86%92+Splunk+%E2%80%A2+Prometheus+%E2%80%A2+Grafana" alt="DevOps Pipeline" />
+
+<br>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f3460,50:16213e,100:1a1a2e&height=80&section=footer" width="100%" />
 
 </div>
 
