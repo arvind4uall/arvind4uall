@@ -1,11 +1,8 @@
-<h1 align="center">
-  <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30px"/> 
-  Hey, I'm Arvind
-</h1>
+<h1 align="center">👋 Hey, I'm Arvind</h1>
 
 <p align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=22&duration=3000&pause=1500&color=1A7F37&center=true&vCenter=true&multiline=true&repeat=true&width=600&height=70&lines=I+build+resilient+systems+from+frontend+to+cloud+%E2%98%81%EF%B8%8F;Java+%C2%B7+Spring+Boot+%C2%B7+Microservices+%C2%B7+Kafka+%C2%B7+AWS;4%2B+years+shipping+production+fintech+at+scale;Spring+Cloud+%C2%B7+Circuit+Breaker+%C2%B7+Saga+%C2%B7+CQRS" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=20&duration=3000&pause=1500&color=1A7F37&center=true&vCenter=true&multiline=false&repeat=true&width=550&height=30&lines=I+build+resilient+systems+from+frontend+to+cloud;Java+%7C+Spring+Boot+%7C+Microservices+%7C+Kafka+%7C+AWS;4%2B+years+shipping+production+fintech+at+scale;Spring+Cloud+%7C+Circuit+Breaker+%7C+Saga+%7C+CQRS" alt="Typing SVG" />
   </a>
 </p>
 
@@ -93,12 +90,22 @@ Currently shipping fintech software at **Cognizant Technology Solutions** for a 
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=arvind4uall&show_icons=true&theme=github_dark_dimmed&hide_border=true&bg_color=0d1117&title_color=3fb950&icon_color=3fb950&text_color=8b949e" width="48%" alt="GitHub Stats" />
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=arvind4uall&theme=github-dark-blue&hide_border=true&background=0D1117&ring=3FB950&fire=3FB950&currStreakLabel=3FB950" width="48%" alt="GitHub Streak" />
+  <a href="https://github.com/arvind4uall">
+    <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=arvind4uall&show_icons=true&theme=github_dark_dimmed&hide_border=true&bg_color=0d1117&title_color=3fb950&icon_color=3fb950&text_color=8b949e&count_private=true" width="48%" alt="GitHub Stats" />
+  </a>
+  <a href="https://github.com/arvind4uall">
+    <img src="https://streak-stats.demolab.com?user=arvind4uall&theme=github-dark-blue&hide_border=true&background=0D1117&ring=3FB950&fire=3FB950&currStreakLabel=3FB950" width="48%" alt="GitHub Streak" />
+  </a>
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=arvind4uall&layout=compact&theme=github_dark_dimmed&hide_border=true&bg_color=0d1117&title_color=3fb950&text_color=8b949e" width="40%" alt="Top Languages" />
+  <a href="https://github.com/arvind4uall">
+    <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=arvind4uall&layout=compact&theme=github_dark_dimmed&hide_border=true&bg_color=0d1117&title_color=3fb950&text_color=8b949e&langs_count=8" width="40%" alt="Top Languages" />
+  </a>
+</p>
+
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=arvind4uall&theme=darkhub&no-frame=true&no-bg=true&column=7" width="90%" alt="GitHub Trophies" />
 </p>
 
 ---
